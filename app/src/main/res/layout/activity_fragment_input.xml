@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addDann"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shag"
+            android:inputType="number"
+            android:textColor="@color/blue"
+            android:background="@drawable/editext"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+        <EditText
+            android:id="@+id/etSugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Сахар в крови"
+            android:inputType="number"
+            android:textColor="@color/blue"
+            android:background="@drawable/editext"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etSleep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Sleep"
+            android:inputType="numberDecimal"
+            android:textColor="@color/blue"
+            android:background="@drawable/editext"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Ves"
+            android:inputType="numberDecimal"
+            android:textColor="@color/blue"
+            android:background="@drawable/editext"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Save"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

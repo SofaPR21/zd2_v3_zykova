@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">zd2_v3</string>
+    <string name="history">История</string>
+    <string name="historyUsers">История данных пользователя</string>
+    <string name="login">Вход</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login2">Войти</string>
+    <string name="addDann">Внесите данные</string>
+    <string name="shag">Шаг</string>
+    <string name="Rost">Рост</string>
+    <string name="Ves">Вес</string>
+    <string name="Save">Сохранить</string>
+    <string name="back">Выход</string>
+    <string name="Sleep">Сон</string>
+
+</resources>
